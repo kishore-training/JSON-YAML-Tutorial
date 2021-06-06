@@ -1,7 +1,7 @@
 # JSON-YAML-Tutorial
 This repository contains various folders for understanding JSON and YAML.
 
-**json samples **: contains the json sample files
+**json samples**: contains the json sample files
 
 **yaml samples**: contains the yaml sample files
 
