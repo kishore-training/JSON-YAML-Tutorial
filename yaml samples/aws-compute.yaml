@@ -1,0 +1,19 @@
+ComputeEnvironment:
+  Type: AWS::Batch::ComputeEnvironment
+  Properties:
+    Type: MANAGED
+    ServiceRole: arn:aws:iam::111122223333:role/service-role/AWSBatchServiceRole
+    ComputeEnvironmentName: UbuntuC4OnDemand
+    ComputeResources:
+      SecurityGroupIds:
+        - sg-abcd1234
+      Type: EC2
+      Subnets:
+        - subnet-aaaaaaaa 
+      ImageId: ami-ubuntu
+      DesiredvCpus: 8
+      InstanceTypes:
+        - c4.large
+      Ec2KeyPair: id_rsa
+      Tags: {"Name" : "Batch Instance - C4OnDemand"}  
+    State: ENABLED

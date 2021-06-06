@@ -1,0 +1,6 @@
+dog:
+  name: jacky
+  age: 4
+  colors:
+    - black
+    - brown

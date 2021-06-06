@@ -1,0 +1,11 @@
+{
+  "dog": {
+    "name": "tom",
+    "age": 3,
+    "trained": true,
+    "colors": [
+      "brown",
+      "black"
+    ]
+  }
+}

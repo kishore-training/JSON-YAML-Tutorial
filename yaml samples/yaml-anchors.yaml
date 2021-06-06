@@ -1,0 +1,49 @@
+---
+# Courses YAML
+courses:
+- name: JSON tutorial
+  description: A description of the course
+  Instructor: &allen #declare an anchor for allen with &
+    name: Allen Loin
+    age: 41
+  Student:
+  - name: John
+    age: 32
+    member: &mem true
+    Languages:
+    - English
+    - French
+  
+  - name: Sam
+    age: 22
+    member: *mem
+    Languages:
+    - English
+    - Spanish
+- name: YAML tutorial
+  Instructor: {name: Kishore, age: 38}
+  Student: 
+  - name: Sundar
+    age: 28
+    member: false
+    Languages:
+    - English
+    - Hindi
+  - name: Raj
+    age: 35
+    member: *mem
+    Languages: [English, Sanskrit]
+- name: XYZ tutorial
+  Instructor: *allen # reuse the anchor instead of typing instructor again
+  Student: 
+  - name: Sundar
+    age: 28
+    member: false
+    Languages:
+    - English
+    - Hindi
+  - name: Raj
+    age: 35
+    member: *mem
+    Languages: [English, Sanskrit]
+---

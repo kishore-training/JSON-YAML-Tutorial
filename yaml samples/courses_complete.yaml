@@ -1,0 +1,34 @@
+---
+# Courses YAML
+courses:
+- name: JSON tutorial
+  Instructor: 
+    name: Allen Loin
+    age: 41
+  Student:
+  - name: John
+    age: 32
+    member: &mem true
+    Languages:
+    - English
+    - French
+  - name: Sam
+    age: 22
+    member: *mem
+    Languages:
+    - English
+    - Spanish
+- name: YAML tutorial
+  Instructor: {name: Kishore, age: 38}
+  Student: 
+  - name: Sundar
+    age: 28
+    member: false
+    Languages:
+    - English
+    - Hindi
+  - name: Raj
+    age: 35
+    member: *mem
+    Languages: [English, Sanskrit]
+    

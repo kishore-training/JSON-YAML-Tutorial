@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <courses>
+    <name>JSON tutorial</name>
+    <Instructor>Allen Loin</Instructor>
+    <Student>
+      <name>John</name>
+      <age>32</age>
+      <member>true</member>
+      <Languages>English</Languages>
+      <Languages>French</Languages>
+    </Student>
+    <Student>
+      <name>Sam</name>
+      <age>32</age>
+      <member>true</member>
+      <Languages>English</Languages>
+      <Languages>Spanish</Languages>
+    </Student>
+  </courses>
+  <courses>
+    <name>YAML tutorial</name>
+    <Instructor>Kishore Jagannath</Instructor>
+    <Student>
+      <name>Sundar</name>
+      <age>28</age>
+      <member>false</member>
+      <Languages>English</Languages>
+      <Languages>Hindi</Languages>
+    </Student>
+    <Student>
+      <name>Raj</name>
+      <age>32</age>
+      <member>true</member>
+      <Languages>English</Languages>
+      <Languages>Sanskrit</Languages>
+    </Student>
+  </courses>
+</root>

@@ -1,0 +1,40 @@
+ {
+	"courses": 
+		[{
+			"name": "JSON tutorial",
+			"Instructor":{
+			  "name":  "Allen Loin",
+			  "age": 43
+			},
+			"Student": [{
+				"name": "John",
+				"age": 32,
+				"member": true,
+				"Languages": ["English", "French"]
+			},{
+				"name": "Sam",
+				"age": 22,
+				"member": true,
+				"Languages": ["English", "Spanish"]
+			}]
+		},
+		{
+			"name": "YAML tutorial",
+			"Instructor":{
+				"name":  "Kishore",
+				"age": 38
+			  },
+			"Student": [{
+				"name": "Sundar",
+				"age": 28.5,
+				"member": false,
+				"Languages": ["English", "Hindi"]
+			},{
+				"name": "Raj",
+				"age": 35,
+				"member": true,
+				"Languages": ["English", "Sanskrit"]
+			}]
+		}
+	]
+}

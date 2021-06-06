@@ -1,0 +1,6 @@
+{"dog":{
+    "name": "sa\"m",
+    "age": 10,
+    "trained": true,
+    "colors": ["black","brown"]
+}}
